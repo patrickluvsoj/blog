@@ -1,0 +1,12 @@
+$font-color:  #554d56;
+$base-font: roboto, sans-serif;
+
+#content {
+    margin: 35px;
+    font: $base-font;
+    color: $font-color;
+}
+
+p {
+    margin: 10px;
+}
