@@ -1,11 +1,31 @@
-#content {
-  margin: 35px;
+body {
+  background-color: #fffaf0;
   font: roboto, sans-serif;
   color: #554d56;
 }
 
+#content {
+  margin: 35px;
+}
+
 p {
   margin: 10px;
+}
+
+#essay {
+  height: auto;
+  width: 700px;
+}
+
+@media screen and (max-width: 600px) {
+  #essay {
+    width: 350px;
+  }
+}
+#gram {
+  height: 300px;
+  width: 300px;
+  padding: 5px 0 5px 0;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

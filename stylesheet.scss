@@ -1,12 +1,35 @@
 $font-color:  #554d56;
 $base-font: roboto, sans-serif;
+$essay-width: 700px;
 
-#content {
-    margin: 35px;
+body {
+    background-color: #fffaf0;
     font: $base-font;
     color: $font-color;
 }
 
+#content {
+    margin: 35px;
+}
+
 p {
     margin: 10px;
+}
+
+#essay {
+    height: auto;
+    width: $essay-width;
+}
+
+
+@media screen and (max-width: 600px) {
+    #essay {
+        width: 350px
+    }
+}
+
+#gram {
+    height: 300px;
+    width: 300px;
+    padding: 5px 0 5px 0;
 }
