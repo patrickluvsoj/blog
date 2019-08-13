@@ -17,15 +17,21 @@ p {
   width: 700px;
 }
 
+.title {
+  line-height: 2;
+  margin-bottom: 5px;
+  margin-top: 5pm;
+}
+
 @media screen and (max-width: 600px) {
   #essay {
     width: 350px;
   }
 }
 #gram {
-  height: 300px;
-  width: 300px;
-  padding: 5px 0 5px 0;
+  height: 275px;
+  width: 275px;
+  padding: 5px 5px 5px 5px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
